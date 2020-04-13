@@ -1,16 +1,21 @@
 def new_hash
-  # return an empty hash
+  my_hash = {}
+  return my_hash
 end
 
 def my_hash
-  # return a valid hash with any key/value pair of your choice
+  weather = {sunny: "cap", rain: "macintosh"}
+  return weather
 end
 
 def pioneer
-  # return a hash with a key of :name and a corresponding value of 'Grace Hopper'
+  code_hash = {name: "Grace Hopper"}
+  return code_hash
 end
 
 
 def id_hash_generator(number)
-  # return a hash with a key :id assigned to the provided number
+  number_hash = {}
+  number_hash[:id] = number
+  return number_hash
 end
