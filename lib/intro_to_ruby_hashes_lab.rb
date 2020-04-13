@@ -1,16 +1,20 @@
+#You dont need to assign these to variables
+#Return an empty has
 def new_hash
-  # return an empty hash
+Hash.new
 end
 
+ #Return a valid hash with any key/value pair of your choice
 def my_hash
-  # return a valid hash with any key/value pair of your choice
+{:Artists => "Beyonce"}
 end
 
+ #Return a hash with :name =>'Grace Hopper'
 def pioneer
-  # return a hash with a key of :name and a corresponding value of 'Grace Hopper'
+{:name =>'Grace Hopper'}
 end
 
-
+#Return a hash with :id => number
 def id_hash_generator(number)
-  # return a hash with a key :id assigned to the provided number
+{:id => number }
 end
